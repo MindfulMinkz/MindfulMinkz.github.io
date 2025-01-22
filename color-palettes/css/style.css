@@ -1,0 +1,95 @@
+/* Palette 1 */
+#P1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;}
+#p1-c1{background-color:#99bf2e;
+text-align: center;
+padding: 30px;;
+font-size: 25px;}
+
+#P1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;}
+#p1-c2{background-color: #010101;
+text-align: center;
+padding: 30px;;
+font-size: 25px;}
+#p1-c2{color: aliceblue;}
+
+#p1-c2{background-color: #010101;
+    text-align: center;
+    padding: 30px;;
+    font-size: 25px;}
+    #p1-c2{color: aliceblue;}
+
+    #p1-c3{background-color: #733080;
+        text-align: center;
+        padding: 30px;;
+        font-size: 25px;}
+        #p1-c3{color: aliceblue;}
+
+        #p1-c4{background-color: #db3d35;
+            text-align: center;
+            padding: 30px;;
+            font-size: 25px;}
+            #p1-c{color: aliceblue;}
+/* Palette 2 */
+
+#P2{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+ sans-serif;
+    text-align: center;}
+#p2-c2{background-color: #c72710;
+    text-align: center;
+    padding: 30px;;
+    font-size: 25px;}
+    #p2-c2{color: aliceblue;}
+
+#p2-c3 {background-color: #005650;
+    text-align: center;
+    padding: 30px;;
+    font-size: 25px;}
+    #p2-c2{color: aliceblue;}
+
+#p2-c4{background-color: #fec23d;
+    text-align: center;
+    padding: 30px;;
+    font-size: 25px;}
+    #p2-c3{color: aliceblue;}
+
+#p2-c5{background-color: #77a8f5;
+    text-align: center;
+    padding: 30px;;
+    font-size: 25px;}
+    #p2-c{color: aliceblue;}
+
+    /* Palette 3 */
+#P3{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,
+    sans-serif;
+       text-align: center;}
+   #p3-c2{background-color: #9bd600;
+       text-align: center;
+       padding: 30px;;
+       font-size: 25px;}
+       #p2-c2{color: aliceblue;}
+   
+   #p3-c3 {background-color: #ff850d;
+       text-align: center;
+       padding: 30px;;
+       font-size: 25px;}
+       #p3-c{color: aliceblue;}
+   
+   #p3-c4{background-color: #7f01cd;
+       text-align: center;
+       padding: 30px;;
+       font-size: 25px;}
+       #p3-c4{color: aliceblue;}
+   
+   #p3-c5{background-color: #f8d100;
+       text-align: center;
+       padding: 30px;;
+       font-size: 25px;}
+       #p2-c{color: aliceblue;}
+    
+    #p3-c6{background-color: #a90066;
+        text-align: center;
+        padding: 30px;;
+        font-size: 25px;}
+        #p3-c6{color: aliceblue;}
