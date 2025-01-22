@@ -1,7 +1,12 @@
 /* Palette 1 */
-#P1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;}
-#p1-c1{background-color:#390000;
+body {
+    background-color:#7e7e7e;
+}
+#P1{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center; font-size: 50px;
+color: #FFFFFF;}
+
+    #p1-c1{background-color:#390000;
 text-align: center;
 padding: 30px;;
 font-size: 25px;}
