@@ -1,0 +1,42 @@
+/* Palette 1 */
+#P1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;}
+#p1-c1{background-color:#390000;
+text-align: center;
+padding: 30px;;
+font-size: 25px;}
+#p1-c1{color: white;}
+
+
+#P1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;}
+
+#p1-c2{background-color: #003939;
+    text-align: center;
+    padding: 30px;;
+    font-size: 25px;}
+    #p1-c2{color: aliceblue;}
+
+#p1-c3{background-color: #FF0000;
+        text-align: center;
+        padding: 30px;;
+        font-size: 25px;}
+        #p1-c3{color: aliceblue;}
+
+#p1-c4{background-color: #FC00FF;
+        text-align: center;
+        padding: 30px;;
+        font-size: 25px;}
+        #p1-c{color: aliceblue;}
+
+#p1-c5{background-color: #000000;
+        text-align: center;
+        padding: 30px;;
+        font-size: 25px;}
+        #p1-c5{color: aliceblue;}
+
+#p1-c6{background-color: #FFFFFF;
+        text-align: center;
+        padding: 30px;;
+        font-size: 25px;}
+        #p1-c6{color: rgb(0, 0, 0);}
