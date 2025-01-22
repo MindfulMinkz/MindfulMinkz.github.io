@@ -1,12 +1,12 @@
 /* Palette 1 */
-body {
-    background-color: rgb(129, 129, 129);
-}
+
 
 #P1{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center; font-size: 70px;
 color: #FFFFFF;}
-
+body {
+    background-color: rgb(129, 129, 129);
+}
     #p1-c1{background-color:#390000;
 text-align: center;
 padding: 30px;;
