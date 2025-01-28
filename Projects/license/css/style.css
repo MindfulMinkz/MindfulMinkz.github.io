@@ -1,0 +1,14 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#license {
+    width: 700px;
+    border: 2px soild black;
+    border-radius: 50px;
+    padding: 24px;
+}
