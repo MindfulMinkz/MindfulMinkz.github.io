@@ -12,3 +12,33 @@
     border-radius: 50px;
     padding: 24px;
 }
+
+#donor, #real-id {
+    display: inline-block;
+}
+#real-id {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+h4 {
+    margin: 0px;
+    background-color: navy;
+    color: white;
+    padding: 10px
+}
+
+#left-side, #right-side {
+    display: inline-block;
+    width: 65%;
+}
+
+#right-side {
+    width: 34%}
+  
+
+
+
