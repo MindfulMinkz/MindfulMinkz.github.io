@@ -52,19 +52,22 @@
     width: 80px;
     display: block;
 }
+
 /* Pic 4 */
 #pic4 {
     border: 10px outset rgb(39, 219, 69);
-    margin: 30px 12px 0px;
+    margin: 30px 74px 3px 0px;
     box-shadow: -2px 2px 2px;
     background-color: aliceblue;
 }
+
 #pic4 div{
     background-color: aliceblue;
     padding: 10px;
     box-shadow: inset -1px 1px 2px #444;
 }
+
 #pic4 img{
-    width: 70px;
+    width: 80px;
     display: block;
 }
