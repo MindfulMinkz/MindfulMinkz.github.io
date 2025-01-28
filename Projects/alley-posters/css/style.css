@@ -11,18 +11,15 @@
     border: 10px outset rgb(135, 148, 75);
     margin: 30px 12px 0px;
     box-shadow: -2px 2px 2px;
-    border-radius: 50% 50% 0px 0px;
 }
 #pic1 div{
     background-color: aliceblue;
     padding: 10px;
     box-shadow: inset -1px 1px 2px #444;
-    border-radius: 50% 50% 0px 0px;
 }
 #pic1 img{
     width: 80px;
     display: block;
-    border-radius: 50% 50% 0px 0px;
 }
 
 /* pic2 */
