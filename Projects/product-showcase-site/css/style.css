@@ -1,0 +1,15 @@
+/* box 1 */
+#Nuggie1 {width: 50%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+ ;}
+
+ #background1 {background-color:#6084d4;
+height: 450px;}
+
+ #header1, #header2, #p1 {color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+
+#img1 {;}
