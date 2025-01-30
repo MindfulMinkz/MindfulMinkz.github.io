@@ -14,3 +14,61 @@ text-align: center;
 
 #img1 { text-align: center;
 }
+
+
+/* Box 2 */
+
+#Nuggie2 {
+    width: 50%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    }
+ 
+#background2 {background-color:#682c5c;
+    height: 525px;}
+
+#header3, #header4, #header5, #p2 {color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    }
+
+#img2 { 
+    text-align: center;
+    }
+    /* Box 3 */
+#Nuggie3 {width: 50%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    }
+ 
+#background3 {background-color:#99a747;
+    height: 460px;}
+
+#header6, #header7, #header8, #p3 {color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    }
+
+#img3 { 
+    text-align: center;
+    }
+    /* Box 4 */
+#Nuggie4 {width: 50%;
+        margin: 0px auto;
+        margin-bottom: 10px;
+        }
+     
+#background4 {background-color:#df9c5c;
+        height: 460px;}
+    
+ #header9, #header10, #header11, #p4 {
+        color: white;
+        font-family: 
+        'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align:
+         center;
+        }
+    
+ #img4 { 
+    text-align: center;
+     }
