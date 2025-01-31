@@ -1,0 +1,14 @@
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content {
+    width: 250px;
+}
+
+#main-content {
+    flex: 1;
+}
+
+#img1 {margin-left: 75%;}
+#img2 {margin-left: 75%;}
