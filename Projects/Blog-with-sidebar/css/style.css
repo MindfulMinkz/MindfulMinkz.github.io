@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+    background-image: url("images/Background.jpg");
+}
+
+#two-columns{
+  margin: 48px 0px;
+    display: grid;
+background-color:aliceblue;
+align-center
+}
+
+
+#sidebar {
+    margin-top: 24px;
+    padding: 0px 12px;
+    grid-area: sidebar-area;
+}
+
+#sidebar {
+    background-color: #232372;
+    color: white;
+    padding: 8px 16px;
+    margin: 0px;
+}
+
+#sidebar text {
+    border: 1px solid #DDDDDD;
+    margin: 0px;
+    padding: 16px;
+    list-style-type: none;
+}
+
+#sidebar  {
+    padding: 8px 0px;
+}
+
+#sidebar  {
+    color: #232372;
+    text-decoration: none;
+}
+
+
