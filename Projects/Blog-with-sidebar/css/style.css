@@ -5,16 +5,18 @@
 body {
     margin: 0px;
     font-family: sans-serif; 
-    background-image: url("images/Background.jpg");
+    background-image: url("../images/Background.jpg");
 }
 
 #two-columns{
   margin: 48px 0px;
     display: grid;
 background-color:aliceblue;
-align-center
 }
 
+#main-content {
+    text-align: center;
+}
 
 #sidebar {
     margin-top: 24px;
@@ -23,13 +25,13 @@ align-center
 }
 
 #sidebar {
-    background-color: #232372;
+    background-color: #ef8e49;
     color: white;
     padding: 8px 16px;
     margin: 0px;
 }
 
-#sidebar text {
+#sidebar h1 {
     border: 1px solid #DDDDDD;
     margin: 0px;
     padding: 16px;
@@ -41,7 +43,7 @@ align-center
 }
 
 #sidebar  {
-    color: #232372;
+    color: #ef8e49;
     text-decoration: none;
 }
 
