@@ -22,29 +22,35 @@ body {
     margin-top: 24px;
     padding: 0px 12px;
     grid-area: sidebar-area;
+    background-color: aliceblue;
 }
 
-#sidebar {
+#sidebar H1 {
     background-color: #ef8e49;
     color: white;
     padding: 8px 16px;
     margin: 0px;
 }
 
-#sidebar h1 {
+#sidebar ul {
     border: 1px solid #DDDDDD;
     margin: 0px;
     padding: 16px;
     list-style-type: none;
 }
 
-#sidebar  {
+#sidebar li  {
     padding: 8px 0px;
 }
 
-#sidebar  {
+#sidebar li:last-child {
     color: #ef8e49;
     text-decoration: none;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: #a263b2;
 }
 
 #W{
@@ -55,7 +61,34 @@ body {
     color:#eed560 ;
 }
 
-#j
+#j{
+    color: #eb4d4a;
+}
+
+#s{
+    color:#fb8d3e ;
+}
+
+#p{
+    color: #7fb756;
+}
+
+#e{
+    color: #a263b2;
+}
+
+#h{
+    color: #57a78c;
+}
+
+#b{
+    color: #0f7ec6;
+}
+
+#ma{
+    text-align: left;
+    margin-left: 30px;
+}
 
 
 
