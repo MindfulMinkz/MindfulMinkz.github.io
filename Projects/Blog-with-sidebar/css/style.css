@@ -11,11 +11,11 @@ body {
 #two-columns{
   margin: 48px 0px;
     display: grid;
-background-color:aliceblue;
 }
 
 #main-content {
     text-align: center;
+    background-color: aliceblue;
 }
 
 #sidebar {
@@ -46,6 +46,16 @@ background-color:aliceblue;
     color: #ef8e49;
     text-decoration: none;
 }
+
+#W{
+    color:#c93431 ;
+}
+
+#f{
+    color:#eed560 ;
+}
+
+#j
 
 
 
