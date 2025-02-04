@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+
+#three-columns {
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr;
+}
+
+#column-1 {
+    background-color: lightblue;
+}
+
+#column-2 {
+    background-color: darkblue;
+    color: white;
+}
+
+#column-3 {
+    background-color: aquamarine;
+}
+
+
+
+
+#column-1 {
+    background-color: rgb(255, 255, 255);
+}
+
+#column-2 {
+    background-color: rgb(190, 190, 190);
+    color: white;
+}
+
+#column-3 {
+    background-color: rgb(255, 255, 255); 
+    margin-left: 20px;
+}
+
+#user {
+    text-decoration: underline;
+
+}
+
+#duck {
+    flex: 1;
+    padding: px;
+    
+
+}
+
