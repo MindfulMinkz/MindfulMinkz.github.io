@@ -47,10 +47,10 @@ body {
 
 }
 
-#duck {
-    flex: 1;
-    padding: px;
-    
-
-}
+.duck {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
 
