@@ -1,11 +1,12 @@
 /* box 1 */
 #Nuggie1 {width: 50%;
-    margin: 0px auto;
-    margin-bottom: 10px;
  ;}
 
- #background1 {background-color:#6084d4;
-height: 450px;}
+ #background1 {
+    background-color:#6084d4;
+    height: 450px;
+    padding: 10px;
+    }
 
  #header1, #header2, #p1 {color: white;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -20,12 +21,13 @@ text-align: center;
 
 #Nuggie2 {
     width: 50%;
-    margin: 0px auto;
-    margin-bottom: 10px;
     }
  
-#background2 {background-color:#682c5c;
-    height: 525px;}
+#background2 {
+    background-color:#682c5c;
+    height: 525px;
+    padding: 10px;
+    }
 
 #header3, #header4, #header5, #p2 {color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -41,8 +43,11 @@ text-align: center;
     margin-bottom: 10px;
     }
  
-#background3 {background-color:#99a747;
-    height: 460px;}
+#background3 {
+    background-color:#99a747;
+    height: 460px;
+    padding: 10px;
+    }
 
 #header6, #header7, #header8, #p3 {color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -58,8 +63,10 @@ text-align: center;
         margin-bottom: 10px;
         }
      
-#background4 {background-color:#df9c5c;
-        height: 460px;}
+#background4 {
+    background-color:#df9c5c;
+    height: 460px;
+    padding: 10px;}
     
  #header9, #header10, #header11, #p4 {
         color: white;
