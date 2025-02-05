@@ -64,3 +64,45 @@ body {
 #Duck1 {
     border: 2px solid black ;
 }
+
+#Button1 {
+    background-color: #4663ea; 
+    border: none;
+    color: white;
+    padding: 15px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+#Button2 {
+    background-color: #ffffff; 
+    border:2px solid #4663ea;
+    color: #4663ea;
+    padding: 15px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-top: 1px;
+}
+
+#Button3 {
+    background-color: #ffffff; 
+    border:2px solid #4663ea;
+    color: #4663ea;
+    padding: 15px 180px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-top: 1px;
+}
+
+#Logo {
+    border-radius: 50%;
+}
