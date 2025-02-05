@@ -33,8 +33,9 @@ body {
 }
 
 #column-2 {
-    background-color: rgb(190, 190, 190);
+    background-color: #f2f1f2;
     color: white;
+    border-radius: 25px;
 }
 
 #column-3 {
@@ -53,3 +54,13 @@ body {
     margin-right: auto;
   }
 
+#Duck1, #Duck2, #Duck3, #Duck4 {
+    background-color: rgb(180, 180, 180);
+    margin-left: 20%;
+    margin-top: 10%;
+    border-radius: 25px;
+}
+
+#Duck1 {
+    border: 2px solid black ;
+}
