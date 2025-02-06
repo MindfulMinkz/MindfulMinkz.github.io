@@ -10,9 +10,9 @@
 
 .card-style-1 {
     width: 350px;
-    
     box-shadow:4px 4px 20px #000000;
    background-color: #eeffee;
+   Margin-left:20px
 }
 .card-style-1 img {
     width: 100%;
