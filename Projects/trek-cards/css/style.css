@@ -12,7 +12,7 @@
     width: 350px;
     box-shadow:4px 4px 20px #000000;
    background-color: #eeffee;
-   Margin-left:20px
+   Margin-left:15px
 }
 .card-style-1 img {
     width: 100%;
@@ -36,5 +36,9 @@
     padding: 20px;
     width: 100%;
     text-align: center;
+}
+
+#trek-card-1 {
+    Margin-left: -2px
 }
 
