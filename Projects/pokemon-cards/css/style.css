@@ -1,0 +1,148 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+.card-style-3 {
+    width: 350px;
+    border: 20px solid #f9d84b;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 20px;
+   
+}
+.card-style-3 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    Display: block;
+    border: 5px solid #d1a642;
+    
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card-style-3 h2 {
+    font-size: 35px;
+    margin-top: 12px;
+    text-align: center;
+}
+.card-style-3 p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.details {
+    background: linear-gradient(
+        100deg, 
+        #d3a842, 
+        #f3d349, 
+        #d3a842
+    );
+    font-size:12px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.health {
+    font-size: 18px;
+    text-align: right;
+    width: 50px;
+}
+
+#description {
+    font-size: 11px;
+}
+
+.fa-solid fa-leaf{
+    font-size: 20px;
+    text-align: center;
+    width: 5%;
+}
+
+#pokemon-card-1 {
+    background: linear-gradient(
+        100deg, 
+        #a8e593, 
+        #538e3a, 
+        #a6e391
+    );
+}
+
+#pokemon-card-2 {
+    background: linear-gradient(
+        100deg, 
+        #a8e593, 
+        #538e3a, 
+        #a6e391
+    );
+}
+
+#pokemon-card-3 {
+    background: linear-gradient(
+        100deg, 
+        #efa33b, 
+        #e75828, 
+        #ef9e39
+    );
+}
+
+#pokemon-card-4 {
+    background: linear-gradient(
+        100deg, 
+        #86f6fc, 
+        #98cee8, 
+        #86f7fc
+    );
+}
+
+.data{
+    font-weight: 600;
+    font-size: 10px;
+    border: 1px ridge gold;
+    border-radius: 2px;
+    margin: 5px 0px 0px 0px;
+    padding: 5px 5px 5px 5px;
+    
+}
+
+.power {
+    font-weight: 400;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.energy {
+    width: 50px;
+  margin: 0px;
+  padding: 0px;
+}
