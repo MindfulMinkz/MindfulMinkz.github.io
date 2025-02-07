@@ -19,7 +19,7 @@
 
 .card-style-3 {
     width: 350px;
-    border: 20px solid #f9d84b;
+    border: 20px solid #ffd700;
     border-radius: 15px;
     padding: 10px;
     margin-left: 20px;
@@ -39,11 +39,6 @@
     font-size: 16px;
 }
 
-.card-style-3 h2 {
-    font-size: 35px;
-    margin-top: 12px;
-    text-align: center;
-}
 .card-style-3 p {
     font-size: 18px;
     text-align: center;
@@ -62,24 +57,21 @@
     margin-top: 5px;
 }
 
-.name {
-    font-weight: 700;
-    font-size: 20px;
-    margin: 0px;
-    padding: 0px;
-    margin: 0px;
-    padding: 0px;
+.pokemon-header h2{
+    font-size: 28px;
+    text-align: left;
+    margin-bottom:-22px;
+    margin-top: 5px;
 }
 
-.health {
+ 
+
+.pokemon-header div{
     font-size: 18px;
     text-align: right;
-    width: 50px;
+    margin-bottom: 5px;
 }
 
-#description {
-    font-size: 11px;
-}
 
 .fa-solid fa-leaf{
     font-size: 20px;
@@ -89,7 +81,7 @@
 
 #pokemon-card-1 {
     background: linear-gradient(
-        100deg, 
+        150deg, 
         #a8e593, 
         #538e3a, 
         #a6e391
@@ -98,7 +90,7 @@
 
 #pokemon-card-2 {
     background: linear-gradient(
-        100deg, 
+        150deg, 
         #a8e593, 
         #538e3a, 
         #a6e391
@@ -107,7 +99,7 @@
 
 #pokemon-card-3 {
     background: linear-gradient(
-        100deg, 
+        150deg, 
         #efa33b, 
         #e75828, 
         #ef9e39
@@ -116,7 +108,7 @@
 
 #pokemon-card-4 {
     background: linear-gradient(
-        100deg, 
+        150deg, 
         #86f6fc, 
         #98cee8, 
         #86f7fc
@@ -126,7 +118,7 @@
 .data{
     font-weight: 600;
     font-size: 10px;
-    border: 1px ridge gold;
+    border: 2px solid #dca91e;
     border-radius: 2px;
     margin: 5px 0px 0px 0px;
     padding: 5px 5px 5px 5px;
@@ -134,15 +126,26 @@
 }
 
 .power {
-    font-weight: 400;
-    font-size: 20px;
-    width: 25px;
-    text-align: center;
+    font-size:20px;
     font-weight: bold;
+    grid-area: 3;
+}
+
+#description {
+    font-size: 11px;
+    grid-area: 2;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .energy {
     width: 50px;
   margin: 0px;
   padding: 0px;
+  grid-area: 1;
+}
+
+.attack {
+    display: flex;
+    
 }
