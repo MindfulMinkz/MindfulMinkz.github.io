@@ -69,7 +69,10 @@
     border-radius: 5px;
     padding: 20px;
     box-shadow:-4px 4px 12px #000000;
-    background: black
+    background: black;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px
 }
 .card img {
     width: 100%;
@@ -113,7 +116,11 @@
 #Cards {
     display: grid;
     grid-template-columns: 1200px 1200px 1200px;
-    margin-left: 40px;
     margin-top: 40px;
+    background-image: url("../images/hi-res/urban-hi-res-2nse.jpg");
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    
     
 }
