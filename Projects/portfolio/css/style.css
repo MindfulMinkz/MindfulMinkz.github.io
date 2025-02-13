@@ -22,6 +22,7 @@
     margin-bottom: 60px;
     color: #fff7f7;
     text-shadow:-4px 4px 12px #000000;
+    font-family: "Charm", serif;
 }
 #hero-5 a {
     font-size: 50px;
@@ -71,8 +72,8 @@
     box-shadow:-4px 4px 12px #000000;
     background: black;
     margin-left: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px
+    margin-top: 30px;
+    margin-bottom: 30px
 }
 .card img {
     width: 100%;
