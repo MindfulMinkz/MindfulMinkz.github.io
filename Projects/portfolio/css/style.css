@@ -35,6 +35,12 @@
     font-family: "Charm", serif;
     font-weight: bold;
     border-radius: 10px;
+    transition: background-color .5s, color .5s;
+    border: 3px solid rgb(255, 255, 255);
+}
+#hero-5 a:hover {
+    background-color: transparent;
+    color: rgb(255, 255, 255)
 }
 
 #h2 {
