@@ -71,24 +71,25 @@
 }
 
 .card h2 {
-    font-size: 50px;
+    font-size: 100px;
     margin-top: 12px;
+    margin-bottom: 100px;
     text-align: center;
     font-family: "Charm", serif;
     color: white;
 }
 
 .card a {
-    color: #fff7f7;
+    color: #000000;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 50px;
     font-weight: bold;
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(255, 255, 255);
     display: inline-block;
     padding: 10px;
     width: 50%;
     text-align: center;
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
     transition: background-color .5s, color .5s;
     border-radius: 10px;
     margin-left: 110px;
@@ -98,10 +99,13 @@
 }
 .card a:hover {
     background-color: transparent;
-    color: rgb(0, 0, 0)
+    color: rgb(255, 255, 255)
 }
 
 #Cards {
     display: grid;
-    grid-template-columns: 850px 850px 850px
+    grid-template-columns: 1200px 1200px 1200px;
+    margin-left: 40px;
+    margin-top: 40px;
+    
 }
