@@ -114,5 +114,6 @@
 
 #Cards {
     display: grid;
-    grid-template-columns: 860px 860px 860px
+    grid-template-columns: 860px 860px 860px;
+    justify-content: space-between;
 }
