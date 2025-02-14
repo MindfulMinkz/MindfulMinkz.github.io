@@ -1,48 +1,80 @@
-/* Palette 1 */
-
-
-#P1{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center; font-size: 70px;
-color: #FFFFFF;}
-body {
-    background-color: rgb(129, 129, 129);
-}
-    #p1-c1{background-color:#390000;
-text-align: center;
-padding: 30px;;
-font-size: 25px;}
-#p1-c1{color: white;}
-
-
-#P1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;}
-
-#p1-c2{background-color: #003939;
-    text-align: center;
-    padding: 30px;;
-    font-size: 25px;}
-    #p1-c2{color: aliceblue;}
-
-#p1-c3{background-color: #FF0000;
-        text-align: center;
-        padding: 30px;;
-        font-size: 25px;}
-        #p1-c3{color: aliceblue;}
-
-#p1-c4{background-color: #FC00FF;
-        text-align: center;
-        padding: 30px;;
-        font-size: 25px;}
-        #p1-c{color: aliceblue;}
-
-#p1-c5{background-color: #000000;
-        text-align: center;
-        padding: 30px;;
-        font-size: 25px;}
-        #p1-c5{color: aliceblue;}
-
-#p1-c6{background-color: #FFFFFF;
-        text-align: center;
-        padding: 30px;;
-        font-size: 25px;}
-        #p1-c6{color: rgb(0, 0, 0);}
+.container {
+    height: 200px;
+    width: 350px;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: 0 10px 20px #dbdbdb;
+    font-family: sans-serif;
+  }
+  
+  .palette {
+    display: flex;
+    height: 86%;
+    width: 100%;
+  }
+  
+  .color {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: flex 0.1s linear;
+  }
+  
+  .color span {
+    opacity: 0;
+    transition: opacity 0.1s linear;
+  }
+  
+  .color:nth-child(1) {
+    background: #390000;
+  }
+  
+  .color:nth-child(2) {
+    background: #003939;
+  }
+  
+  .color:nth-child(3) {
+    background: #FC00FF;
+  }
+  
+  .color:nth-child(4) {
+    background: #DB3D35;
+  }
+  
+  .color:nth-child(5) {
+    background: #000000;
+  }
+  .color:nth-child(6) {
+    background: #FFFFFF;
+  }
+  
+  .color:hover {
+    flex: 2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .color:hover span {
+    opacity: 1;
+  }
+  
+  #stats {
+    height: 14%;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5em;
+    box-sizing: border-box;
+    color: #bebebe;
+  }
+  
+  #stats svg {
+    fill: #bebebe;
+    transform: scale(1.2);
+  }
