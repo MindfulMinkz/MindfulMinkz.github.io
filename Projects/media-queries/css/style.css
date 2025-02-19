@@ -227,7 +227,15 @@ a {
     }
     .three-cards {
         display: flex;
-  flex-direction: column;
+        flex-direction: column;
+    }
+    .two-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .two-cards h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
     }
     
 }
