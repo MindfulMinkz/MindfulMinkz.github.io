@@ -481,8 +481,10 @@ body {
     "blog"
     "footer"
     "bottom";
-    #header h1 
-    {font-size: 40px;}
+
+}
+#header h1 {
+    font-size: 40px;
 }
 #header{
     flex-direction: column;
