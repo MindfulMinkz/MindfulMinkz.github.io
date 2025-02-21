@@ -135,6 +135,9 @@ body {
     flex-wrap: wrap;
     align-items: flex-start;
     margin-bottom: 20px;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 20px auto;
 }
 
 .card {
@@ -144,8 +147,6 @@ body {
     padding: 10px;
     box-shadow:-4px 4px 12px #fef3b1;
     background:#fef3b1;
-    margin-left: 80px;
-    justify-content: space-between;
 }
 .card img {
     width: 50%;
