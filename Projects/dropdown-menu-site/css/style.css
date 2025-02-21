@@ -72,24 +72,31 @@ body {
     background: #9f2b2c;
 }
 
-#hero-1 { 
+#hero-2 { 
     height: 100vh;
-    background-image: url("../images/jametlene-reskp-fliwkBbS7oM-unsplash.jpg");
+    background-image: url("../images/jonas-vincent-xulIYVIbYIc-unsplash.jpg");
     background-size: cover;
     background-position: center center;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
-#hero-1 h1 {
-    font-size: 120px;
+#hero-2 h2 {
+    font-size: 100px;
     position: absolute;
-    left: 2%;
-    margin-bottom: 400px;
+    right: 20%;
+    bottom: 60%;
     font-family: "Indie Flower", serif;
-    color:#9f2b2c ;
+}
+#hero-2 h4 {
+    font-size: 40px;
+    position: absolute;
+    right: 20%;
+    bottom: 60%;
+    font-family: "Indie Flower", serif;
 }
 /* Adopt Pages Giz*/
 #adopt {
@@ -138,6 +145,7 @@ body {
     box-shadow:-4px 4px 12px #fef3b1;
     background:#fef3b1;
     margin-left: 80px;
+    justify-content: space-between;
 }
 .card img {
     width: 50%;
