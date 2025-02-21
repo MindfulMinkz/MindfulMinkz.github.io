@@ -101,7 +101,7 @@ body {
 /* Adopt Pages Giz*/
 #adopt {
     background-color: #fef3b1;
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
     margin-top: 40px;
     margin-left: 20px;
@@ -127,6 +127,7 @@ body {
 #adopt p {
     font-weight: bold;
     text-align: center;
+    font-size: 30px;
 }
 
 /* Card */
@@ -142,25 +143,25 @@ body {
 
 .card {
     width: 350px;
-    border: 2px solid #9f2b2c;
-    border-radius: 5px;
-    padding: 10px;
+    border: 5px solid #e0a03f;
+    border-radius: 20px;
+    padding: 20px;
     box-shadow:-4px 4px 12px #fef3b1;
     background:#fef3b1;
 }
 .card img {
-    width: 50%;
-    height: 150px;
+    width: 60%;
+    height: 200px;
     object-fit: cover;
     Display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     border-radius: 20px;
+    border: 5px solid #e0a03f
 }
 
 .card h2 {
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 12px;
     text-align: center;
     font-family: "Indie Flower", serif;
@@ -169,7 +170,7 @@ body {
 .card a {
     color: #fff7f7;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     background-color: #355d67;
     display: inline-block;
