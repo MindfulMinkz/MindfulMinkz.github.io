@@ -1,12 +1,13 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#card-container {
+#cards-container {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -15,8 +16,8 @@ body {
 .card {
     flex: 300px;
     border: 3px solid black;
-    margin:24px;
-    padding:24px;
+    margin: 24px;
+    padding: 24px;
     border-radius: 12px;
     text-align: center;
 }
@@ -31,8 +32,8 @@ body {
 }
 
 #card1:hover {
-    background-color: lavender;
-    box-shadow: 4px 4px 4px #0004;
+    background-color: lightcyan;
+    box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
 }
 
@@ -40,53 +41,53 @@ body {
     transition: 
         background-color 0.5s,
         box-shadow 0.5s,
-        transform 0.5s
-    ;
-}
-
-#card2:hover a {
-    background-color: lavender;
-    box-shadow: 4px 4px 4px #0004;
-    transform: translateY(-4px);
+        transform 0.5s;
 }
 
 #card2 a {
     transition: 
         background-color 0.5s,
         box-shadow 0.5s,
-        transform 0.5s
-    ;
+        transform 0.5s;
+}
+
+#card2:hover a {
+    background-color: aquamarine;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card3 .card-content {
+    transition:
+        opacity 0.5s,
+        visibility 0.5s;
 }
 
 #card3:hover .card-content {
     opacity: 0;
     visibility: hidden;
 }
-#card3 .card-content {
-    transition: 
-        opacity 0.5s,
-        visibility 0.5s;
-}
 
 #card4 .card-content {
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-8px);
+    transform: translateY(-8px); 
     transition:
         opacity 0.5s,
         visibility 0.5s,
-        transform 0.5s;
-       
+        transform 0.5s; 
 }
+
 #card4:hover .card-content {
-    opacity:1;
+    opacity: 1;
     visibility: visible;
-    transform: translateY(0px);
+    transform: translateY(0px); 
 }
 
 #card5 {
     position: relative;
 }
+
 #card5 .card-content {
     position: absolute;
     background-color: white;
@@ -105,11 +106,13 @@ body {
         transform 0.5s;
 
 }
+
 #card5:hover .card-content {
     opacity: 1;
     visibility: visible;
     transform: translateY(0px);
 }
+
 #card6 {
     position: relative;
     border: 0px;
@@ -136,22 +139,26 @@ body {
     position: absolute;
 }
 
-
-
 #card6 .card-front {
+    
+
+   
     transition: transform 0.25s 0.25s; 
 }
 
 #card6 .card-back {
+   
+
+    
     transition: transform 0.25s;
 }
 
 #card6:hover .card-front {
     transform: scaleX(0);
-    transition: transform 0.25s; 
+    transition: transform 0.25s;
 }
 
 #card6:hover .card-back {
     transform: scaleX(1);
-    transition: transform 0.25s 0.25s;
+    transition: transform 0.25s 0.25s; 
 }
