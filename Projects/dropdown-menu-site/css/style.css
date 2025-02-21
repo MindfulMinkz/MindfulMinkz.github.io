@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url("../images/geometric-groovy-pattern_23-2148852766.avif");
+}
+#navbar {
+    background: linear-gradient(to bottom, #e0a03f, #9f2b2c);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-family: "Indie Flower", serif;
+    font-size: 20px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top,#9f2b2c, #e0a03f );
+    
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    font-family: "Indie Flower", serif;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+        z-index: 10;
+        
+}
+
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: #9f2b2c;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: #9f2b2c;
+}
+
+#hero-1 { 
+    height: 100vh;
+    background-image: url("../images/jametlene-reskp-fliwkBbS7oM-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin-bottom: 100px;
+}
+#hero-1 h1 {
+    font-size: 120px;
+    position: absolute;
+    left: 2%;
+    margin-bottom: 400px;
+    font-family: "Indie Flower", serif;
+    color:#9f2b2c ;
+}
+/* Adopt Pages Giz*/
+#adopt {
+    background-color: #fef3b1;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#adopt h1 {
+    text-align: center;
+    font-family: "Indie Flower", serif;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#adopt img {
+    border-radius: 20px;
+    border: 4px solid #355d67;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+#adopt p {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Card */
+#centered-column {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 350px;
+    border: 2px solid #9f2b2c;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow:-4px 4px 12px #fef3b1;
+    background:#fef3b1;
+    margin-left: 80px;
+}
+.card img {
+    width: 50%;
+    height: 150px;
+    object-fit: cover;
+    Display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.card h2 {
+    font-size: 35px;
+    margin-top: 12px;
+    text-align: center;
+    font-family: "Indie Flower", serif;
+}
+
+.card a {
+    color: #fff7f7;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #355d67;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border: 3px solid #264147;
+    transition: background-color .5s, color .5s;
+    border-radius: 10px;
+    font-family: "Indie Flower", serif;
+    
+}
+.card a:hover {
+
+    background-color: #e0a03f;
+    color: black
+}
