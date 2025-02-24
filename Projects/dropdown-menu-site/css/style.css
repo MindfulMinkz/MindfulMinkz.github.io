@@ -77,7 +77,7 @@ body {
 
 #hero-2 { 
     height: 100vh;
-    background-image: url("../images/jonas-vincent-xulIYVIbYIc-unsplash.jpg");
+    background-image: url("../images/Hero.png");
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -92,7 +92,7 @@ body {
     right: 20%;
     bottom: 60%;
     font-family: "Indie Flower", serif;
-    color: #fef3b1;
+    color: #355d67;
 }
 #hero-2 h4 {
     font-size: 40px;
@@ -100,7 +100,7 @@ body {
     right: 20%;
     bottom: 60%;
     font-family: "Indie Flower", serif;
-    color: #fef3b1;
+    color: #355d67;
 }
 #phrase {
     text-align: center;
