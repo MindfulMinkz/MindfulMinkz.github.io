@@ -80,6 +80,7 @@ body {
     background-image: url("../images/Hero.png");
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -255,7 +256,7 @@ body {
         margin-right: -60px;
     }
     #hero-2 h4  {
-        font-size: 40px;
+        font-size: px;
         margin-bottom: 20px;
         margin-right: -60px;
     }
