@@ -24,7 +24,7 @@ body {
 }
 
 #navbar a:hover {
-    background: linear-gradient(to top,#9f2b2c, #e0a03f );
+    background: #355d67;
     
 }
 
@@ -35,6 +35,9 @@ body {
     padding-top: 13px;
     padding-bottom: 12px;
     font-family: "Indie Flower", serif;
+}
+#navbar #logo:hover {
+    background: linear-gradient(to bottom, #e0a03f, #9f2b2c);
 }
 
 .dropdown-container {
@@ -69,7 +72,7 @@ body {
 }
 
 #navbar .dropdown-menu a:hover {
-    background: #e0a03f;
+    background: #355d67;
 }
 
 #hero-2 { 
@@ -204,11 +207,12 @@ body {
     }
     #navbar {
         flex-direction: column;
-        border-bottom: 2px solid #e0a03f;
+        
     }
     #navbar a {
         text-align: center;
         width: 100%;
+        border-bottom: 2px solid #fef3b1;
     }
     .nav {
         border-bottom: 2px solid #e0a03f;
@@ -225,15 +229,25 @@ body {
         margin-right: -60px;
     }
     .card {
-        align-items: center;
         margin-bottom: 20px;
-        
+        margin-left: auto;
+        margin-right: auto;
     }
-    .centered-column {
-        display: inline;
+    #centered-column {
+        display: block;
     }
     #adopt p {
         font-family: "Indie Flower", serif;
         font-size: 20px;
     }
+    .dropdown-container {
+        width: 100%;
+    }
+    #navbar a:hover {
+        background: #355d67 ;
+        
+    }
+    #navbar #logo:hover {
+    background: linear-gradient(to bottom, #e09c3c, #dc943c);
+}
 }
