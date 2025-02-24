@@ -200,6 +200,37 @@ body {
     background-color: #e0a03f;
     color: black
 }
+/* Buttons */
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 20px auto;
+}
+#buttons a {
+    color: #fff7f7;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #355d67;
+    display: inline-block;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    border: 3px solid #264147;
+    transition: background-color .5s, color .5s;
+    border-radius: 10px;
+    font-family: "Indie Flower", serif;
+    margin-bottom: 10px;
+}
+#buttons a:hover {
+    background-color: #e0a03f;
+    color: black
+}
+ 
 /* Media */
 @media screen and (max-width: 600px) {
     #logo {
