@@ -69,7 +69,7 @@ body {
 }
 
 #navbar .dropdown-menu a:hover {
-    background: #9f2b2c;
+    background: #e0a03f;
 }
 
 #hero-2 { 
@@ -82,7 +82,6 @@ body {
     justify-content: flex-end;
     flex-direction: column;
     position: relative;
-    margin-bottom: 30px;
 }
 #hero-2 h2 {
     font-size: 100px;
@@ -97,6 +96,16 @@ body {
     right: 20%;
     bottom: 60%;
     font-family: "Indie Flower", serif;
+}
+#phrase {
+    text-align: center;
+    font-family: "Indie Flower", serif;
+    background-color: #355d67;
+    padding: 20px;
+    color: #fbf3b4;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 60px;
 }
 /* Adopt Pages Giz*/
 #adopt {
@@ -128,6 +137,7 @@ body {
     font-weight: bold;
     text-align: center;
     font-size: 30px;
+    font-family: "Indie Flower", serif;
 }
 
 /* Card */
@@ -184,7 +194,46 @@ body {
     
 }
 .card a:hover {
-
     background-color: #e0a03f;
     color: black
+}
+/* Media */
+@media screen and (max-width: 600px) {
+    #logo {
+        border-bottom: 2px solid #9f2b2c;
+    }
+    #navbar {
+        flex-direction: column;
+        border-bottom: 2px solid #e0a03f;
+    }
+    #navbar a {
+        text-align: center;
+        width: 100%;
+    }
+    .nav {
+        border-bottom: 2px solid #e0a03f;
+    }
+    #hero-2 h2 {
+        font-size: 50px;
+        font-weight: bolder;
+        margin-top: 30px;
+        margin-right: -60px;
+    }
+    #hero-2 h4  {
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-right: -60px;
+    }
+    .card {
+        align-items: center;
+        margin-bottom: 20px;
+        
+    }
+    .centered-column {
+        display: inline;
+    }
+    #adopt p {
+        font-family: "Indie Flower", serif;
+        font-size: 20px;
+    }
 }
