@@ -1,0 +1,265 @@
+@import url("https://use.typekit.net/iep2ogx.css");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(..//images/OF6LV50.jpg);
+    background-attachment: fixed;
+}
+
+/* NavBar */
+#navbar {
+    background: linear-gradient(to bottom, #d4ac45, #a04f3f);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-family: dinosaur, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, #a04f3f, #d4ac45 );
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    font-family: groupie-regular, sans-serif;
+    letter-spacing: 2px;
+}
+
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+
+    
+    z-index: 10;
+}
+
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: #253d4b;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: #94b2bc;
+}
+/* footer */
+#footer {
+    background: linear-gradient(to bottom, #c2ab94, #a17c57);
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+    font-family: dinosaur, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
+#footer-navbar span {
+    font-family: groupie-regular, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+/* Hero */
+#hero-2 {
+    background-image: url("../images/farhad-ibrahimzade-HU_ubYnwElc-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#hero-2 h2 {
+    font-size: 150px;
+    position: absolute;
+    right: 20%;
+    bottom: 50%;
+    font-family: groupie-regular, sans-serif;
+    letter-spacing: 2px;
+}
+
+#hero-2 h4 {
+    font-size: 40px;
+    position: absolute;
+    right: 20%;
+    bottom: 47%;
+    font-family: dinosaur, sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+#hero-2 h2 {
+    background: rgba(234,203,132, 0.8);
+    padding:10px;
+    border-radius: 20px;
+}
+#hero-2 h4 {
+    background: rgba(234,203,132, 0.8);
+    padding:10px;
+    border-radius: 20px;
+}
+    
+#hero-2 a {
+    font-size: 30px;
+    display: inline-block;
+    background-color: #d4ac45;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 41%;
+    border-radius: 20px;
+    font-family: dinosaur, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* event */
+#event {
+    text-align: center;
+    background-color: #94b2bc;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#event h2 {
+    font-family: groupie-regular, sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+#event h4 {
+    font-family: dinosaur, sans-serif;
+    font-size: 30px;
+    margin-top: -35px;
+}
+#event p {
+    font-family: dinosaur, sans-serif;
+    font-size: 20px;
+    margin-top: -5px;
+}
+/* location */
+#Location{
+    text-align: center;
+    background-color: #dd9791;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#Location h2 {
+    font-family: groupie-regular, sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+#Location h4 {
+    font-family: dinosaur, sans-serif;
+    font-size: 30px;
+    margin-top: -35px;
+}
+#Location p {
+    font-family: dinosaur, sans-serif;
+    font-size: 20px;
+    margin-top: -5px;
+}
+#Location hr {
+    color: #253d4b;
+}
+/* hours */
+#hours{
+    text-align: center;
+    background-color: #eacb84;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#hours h2 {
+    font-family: groupie-regular, sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+#hours h4 {
+    font-family: dinosaur, sans-serif;
+    font-size: 30px;
+    margin-top: -35px;
+}
+#hours p {
+    font-family: dinosaur, sans-serif;
+    font-size: 20px;
+    margin-top: -5px;
+}
+#hours hr {
+    color: #253d4b;
+}
+/* highlight */
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
+#layout h2 {
+    font-family: groupie-regular, sans-serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+    text-align: center;
+}
+#highlight {
+    background-color:#c2ab94;
+    padding: 20px;
+}
