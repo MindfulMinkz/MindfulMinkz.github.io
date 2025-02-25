@@ -111,63 +111,45 @@ body {
     letter-spacing: 2px;
 }
 /* Hero */
-#hero-2 {
-    background-image: url("../images/farhad-ibrahimzade-HU_ubYnwElc-unsplash.jpg");
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
+.two-columns {
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: flex-end;
-    position: relative;
+    height: 50vh;
     margin-bottom: 50px;
 }
 
-#hero-2 h2 {
-    font-size: 150px;
-    position: absolute;
-    right: 20%;
-    bottom: 50%;
-    font-family: groupie-regular, sans-serif;
-    letter-spacing: 2px;
+.big-text-column,
+.img-column {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#hero-2 h4 {
-    font-size: 40px;
-    position: absolute;
-    right: 20%;
-    bottom: 47%;
-    font-family: dinosaur, sans-serif;
-    font-weight: 400;
-    font-style: normal
-}
-#hero-2 h2 {
-    background: rgba(234,203,132, 0.8);
-    padding:10px;
-    border-radius: 20px;
-}
-#hero-2 h4 {
-    background: rgba(234,203,132, 0.8);
-    padding:10px;
-    border-radius: 20px;
-}
-    
-#hero-2 a {
-    font-size: 30px;
-    display: inline-block;
-    background-color: #d4ac45;
+.big-text-column {
+    background-color: #a04f3f;
     color: white;
-    text-decoration: none;
-    padding: 24px;
-    position: absolute;
-    right: 20%;
-    bottom: 41%;
-    border-radius: 20px;
-    font-family: dinosaur, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 28px;
 }
+
+.column-content {
+    margin: 48px;
+    text-align: center;
+}
+
+.img-column img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.column-content h1 {
+    font-family: groupie-regular, sans-serif;
+    letter-spacing: 2px;
+    font-size: 60px;
+}
+.column-content h3 {
+    font-family: dinosaur, sans-serif;
+    font-size: 20px;
+} 
 /* event */
 #event {
     text-align: center;
