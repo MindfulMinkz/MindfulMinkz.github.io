@@ -194,18 +194,18 @@ body {
 #Location{
     text-align: center;
     background-color: #dd9791;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 50px;
     margin-top: 50px;
 }
 #Location h2 {
     font-family: groupie-regular, sans-serif;
     letter-spacing: 2px;
-    font-size: 50px;
+    font-size: 40px;
 }
 #Location h4 {
     font-family: dinosaur, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: -35px;
 }
 #Location p {
@@ -222,6 +222,7 @@ body {
     background-color: #eacb84;
     padding: 20px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 #hours h2 {
     font-family: groupie-regular, sans-serif;
