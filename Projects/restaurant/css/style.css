@@ -91,6 +91,7 @@ background-repeat: repeat;
     color: white;
     padding: 12px;
     width: 100%;
+    position:fixed;bottom:0;left:0;right:0;height:30px;
 }
 
 #footer a {
