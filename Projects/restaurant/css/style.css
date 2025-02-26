@@ -291,6 +291,9 @@ background-repeat: repeat;
     font-size: 25px;
 }
 /* cards */
+#cards {
+    padding-bottom: 40px;
+}
 
 #card6 {
     position: relative;
