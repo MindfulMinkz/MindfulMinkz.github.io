@@ -8,13 +8,13 @@ body {
     font-family: sans-serif;
     background-color: #efdacc;
 opacity: 1;
-background-image:  linear-gradient(135deg, #c6ab91 25%, transparent 25%),
- linear-gradient(225deg, #c6ab91 25%, transparent 25%), linear-gradient(45deg,
-  #c6ab91 25%, transparent 25%), linear-gradient(315deg, #c6ab91 25%, #efdacc 25%);
-background-position:  10px 0, 10px 0, 0 0, 0 0;
-background-size: 20px 20px;
-background-repeat: repeat;
-background-attachment: fixed;
+
+background-image:  repeating-linear-gradient(45deg, #a17c57 25%, transparent 25%,
+transparent 75%, #a17c57 75%, #a17c57), repeating-linear-gradient(45deg, #a17c57
+25%, #c2ab94 25%, #c2ab94 75%, #a17c57 75%, #a17c57);
+background-attachment:fixed;
+background-position: 0 0, 30px 30px;
+background-size: 60px 60px;
 height: 100vh;
 position: relative;
 bottom: 0px;
@@ -25,7 +25,6 @@ bottom: 0px;
     background: linear-gradient(to bottom, #d4ac45, #a04f3f);
     display: flex;
     align-items: center;
-    position: sticky;
 }
 
 #navbar a {
@@ -368,10 +367,6 @@ bottom: 0px;
     background-color:#253d4b;
 }
 /* cards */
-#cards {
-    padding-bottom: 40px;
-}
-
 #card6 {
     position: relative;
     border: 0px;
@@ -559,7 +554,7 @@ bottom: 0px;
     color: rgb(0, 0, 0);
     display: block;
     padding: 15px;
-    width: 500px;
+    width: 250px;
     margin-bottom: 2px;
     background-color:#dd9791;
     transition: 
@@ -583,5 +578,21 @@ bottom: 0px;
 #food #active
      {
         background-color: #94b2bc;
+      }
+
+      @media (max-width: 480px) {
+.horizontal-masonry-gallery{ 
+    display: flex;
+    flex-direction: column;
+}
+#navbar {
+    flex-direction: column;
+}
+#navbar #logo {
+    margin-left: 100px;
+ }
+ #food a {
+    font-size: 20px;
+ }
       }
 
