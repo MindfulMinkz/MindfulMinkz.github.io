@@ -9,8 +9,8 @@ body {
 #Party {
     background-color: aliceblue;
     padding: 20px;
-    margin-left: auto;
-    margin-right: Auto;
+    margin-left: 70px;
+    margin-right: 70px;
     
     
 }
@@ -18,9 +18,10 @@ body {
     text-align: center;
     margin-top: 80px;
 }
-#Header h3, Header h2 {
+#Header h3, h2 {
     font-family: "Nunito Sans", sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+    color: #801e03;
 }
 #Header h1 {
     font-family: "Bowlby One SC", sans-serif;
@@ -28,6 +29,7 @@ body {
     font-size: 50px;
     margin-top: -20px;
     margin-bottom: -20px;
+    color: #4c8527;
 }
 /* Teams */
 #teams {
@@ -47,6 +49,7 @@ body {
     font-size: 80px;
     grid-area: area-2;
     margin-bottom: px;
+    color: #4c8527;
 }
 #mean {
     grid-area: area-1;
@@ -77,6 +80,7 @@ body {
 }
 #info h2 {
     font-size: 35px;
+    color: #801e03;
 }
 #info h1 {
     font-size: 45px;
@@ -118,10 +122,11 @@ body {
     font-family: dinosaur, sans-serif;
     padding-top: 40px;
     font-size: 20px;
+    color: #4c8527;
 }
 
 
-@media screen and (max-width: 1440px) and (min-width: 300px) {
+@media screen and (max-width: 1050px) and (min-width: 300px) {
     #Party {
         width: 900px;
     } 
@@ -146,5 +151,9 @@ body {
     }
     #button a {
         font-size: 30px;
+    }
+    #Party {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
