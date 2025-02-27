@@ -8,10 +8,10 @@ body {
 }
 #Party {
     background-color: aliceblue;
-    grid-area: main;
     padding: 20px;
-    margin-left:5%;
-    margin-right:5%;
+    margin-left: auto;
+    margin-right: Auto;
+    
     
 }
 #Header {
@@ -120,3 +120,31 @@ body {
     font-size: 20px;
 }
 
+
+@media screen and (max-width: 1440px) and (min-width: 300px) {
+    #Party {
+        width: 900px;
+    } 
+    #mean {
+        width: 200px;
+    }
+    #guard {
+        width: 150px;
+        margin-top: 50px;
+    }
+    #teams h2 {
+        font-size: 50px;
+    }
+    #teams h3 {
+        font-size: 35px;
+        margin-top: 70%;
+    }
+    #teams h4 {
+        font-size: 35px;
+        margin-top: 70%;
+        margin-right: 20px;
+    }
+    #button a {
+        font-size: 30px;
+    }
+}
