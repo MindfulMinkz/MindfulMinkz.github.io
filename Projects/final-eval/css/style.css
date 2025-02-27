@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+    background-image: linear-gradient(180deg, #4c8527, #74d434);
+}
+#Party {
+    background-color: aliceblue;
+    grid-area: main;
+    padding: 20px;
+    margin-left:5%;
+    margin-right:5%;
+    
+}
+#Header {
+    text-align: center;
+    margin-top: 80px;
+}
+#Header h3, Header h2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 25px;
+}
+#Header h1 {
+    font-family: "Bowlby One SC", sans-serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+/* Teams */
+#teams {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "area-1 area-2 area-3";
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#teams h2 {
+    text-align: center;
+    margin-top: 90px;
+    font-family: "Bowlby One SC", sans-serif;
+    letter-spacing: 5px;
+    font-size: 80px;
+    grid-area: area-2;
+    margin-bottom: px;
+}
+#mean {
+    grid-area: area-1;
+    margin-left: 33%;
+    margin-top: 50px;
+}
+#guard {
+    grid-area: area-3;
+}
+#teams h3 {
+    grid-area: area-1;
+    margin-left: 40%;
+    margin-top: 60%;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 50px;
+}
+#teams h4 {
+    grid-area: area-3;
+    margin-top: 70%;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 50px;
+}
+/* Info */
+#info {
+    text-align: center;
+    padding: 20px;
+    font-family: "Nunito Sans", sans-serif;
+}
+#info h2 {
+    font-size: 35px;
+}
+#info h1 {
+    font-size: 45px;
+}
+/* Button */
+#button {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#button a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+    margin-bottom: 2px;
+    background-color:#801e03;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 20px;
+    font-family: dinosaur, sans-serif;
+    border: 2px solid #801e03;
+}
+
+#button a:hover {
+    color: #801e03;
+    background-color: white;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+/* Bottom */
+#bottom {
+    text-align: center;
+    font-family: dinosaur, sans-serif;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
