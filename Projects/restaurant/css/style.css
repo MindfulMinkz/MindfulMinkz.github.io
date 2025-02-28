@@ -641,5 +641,9 @@ bottom: 0px;
     width: 100%;
     text-align: center; 
 }
+#featured a {
+    width:50% ;
+    align-items: center;
+}
       }
 
