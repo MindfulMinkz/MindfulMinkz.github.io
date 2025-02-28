@@ -120,8 +120,8 @@ bottom: 0px;
     font-size: 24px;
 }
 #footer-navbar span {
-    font-family: groupie-regular, sans-serif;
-    font-size: 25px;
+    font-family: dinosaur, sans-serif;
+    font-size: 15px;
     letter-spacing: 2px;
 }
 /* Hero */
@@ -545,8 +545,6 @@ bottom: 0px;
     margin-bottom: 15px;
     display: flex;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
     flex-direction: row;
 }
 #food a {
@@ -566,6 +564,8 @@ bottom: 0px;
     border-radius: 20px;
     font-family: dinosaur, sans-serif;
     box-shadow: 5px 5px 20px black;
+    margin-left: px;
+    margin-right: 10px;
     
 }
 
@@ -580,7 +580,8 @@ bottom: 0px;
         background-color: #94b2bc;
       }
 
-      @media (max-width: 480px) {
+     
+ @media (max-width: 480px) {
 .horizontal-masonry-gallery{ 
     display: flex;
     flex-direction: column;
@@ -589,10 +590,26 @@ bottom: 0px;
     flex-direction: column;
 }
 #navbar #logo {
-    margin-left: 100px;
+    margin-left: 60px;
  }
  #food a {
     font-size: 20px;
  }
+#featured img {
+    width: 80%;
+    height: 20%;
+}
+
+#food a {
+    font-size: 10px;
+    margin-right: -1px;
+    padding: 5px;  
+}
+#img-logo {
+    width: 200px;
+}
+.column-content h3 {
+    font-size: 15px;
+}
       }
 
