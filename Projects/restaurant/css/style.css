@@ -544,6 +544,8 @@ bottom: 0px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 #food a {
     text-decoration: none;
@@ -589,21 +591,24 @@ bottom: 0px;
     width: 100%;
 }
 #navbar #logo {
-    margin-left: 60px;
+    width: 100%;
  }
- #food a {
-    font-size: 20px;
- }
+#food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#food a {
+    font-size: 16px;
+    margin-bottom:10px;
+    
+}
 #featured img {
     width: 80%;
     height: 20%;
 }
 
-#food a {
-    font-size: 10px;
-    margin-right: -1px;
-    padding: 5px;  
-}
+
 #img-logo {
     width: 200px;
 }
@@ -620,7 +625,21 @@ bottom: 0px;
     width: 100%;
 }
 .horizontal-masonry-gallery img {
-    width: 10%;
+   width: 100%;
+}
+#layout {
+    width: 100%;
+}
+.card img {
+    width: 100%;
+}
+.dropdown-container {
+    width: 100%;
+    text-align: center;
+}
+#navbar a {
+    width: 100%;
+    text-align: center; 
 }
       }
 
