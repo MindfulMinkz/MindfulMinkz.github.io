@@ -93,9 +93,7 @@ bottom: 0px;
     background: linear-gradient(to bottom, #c2ab94, #a17c57);
     color: white;
     padding: 12px;
-    width: 100%;
-    
-    
+    width: 100%; 
 }
 
 #footer a {
@@ -588,6 +586,7 @@ bottom: 0px;
 }
 #navbar {
     flex-direction: column;
+    width: 100%;
 }
 #navbar #logo {
     margin-left: 60px;
@@ -610,6 +609,18 @@ bottom: 0px;
 }
 .column-content h3 {
     font-size: 15px;
+}
+#footer-navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+#footer {
+    width: 100%;
+}
+.horizontal-masonry-gallery img {
+    width: 10%;
 }
       }
 
